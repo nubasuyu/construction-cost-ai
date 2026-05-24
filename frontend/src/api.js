@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = ProcessingInstruction.env.REACT_APP_API_URL;
+const API = Process.env.REACT_APP_API_URL;
 
 export const predictCost = (data) =>
   axios.post(`${API}/predict`, data);
